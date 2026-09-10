@@ -1,0 +1,8 @@
+feature_name: sweep_topic
+args: {}
+files: []
+claimPatches:
+  - name: sweep-639215b-topic
+    op: add
+    path: /providers/github/topics/-
+    value: sweep-639215b

@@ -1,0 +1,8 @@
+feature_name: sweep_violation
+args: {}
+files: []
+claimPatches:
+  - name: sweep-639215b-bad-org
+    op: replace
+    path: /providers/github/org
+    value: jvazquez-prefapp
