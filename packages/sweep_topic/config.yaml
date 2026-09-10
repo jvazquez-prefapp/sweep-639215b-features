@@ -1,6 +1,9 @@
 feature_name: sweep_topic
 args: {}
-files: []
+files:
+  - src: notice.txt
+    dest: notice.txt
+    user_managed: false
 claimPatches:
   - name: sweep-639215b-topic
     op: add

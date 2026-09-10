@@ -1,8 +1,11 @@
 feature_name: sweep_violation
 args: {}
-files: []
+files:
+  - src: notice.txt
+    dest: notice.txt
+    user_managed: false
 claimPatches:
   - name: sweep-639215b-bad-org
     op: replace
     path: /providers/github/org
-    value: jvazquez-prefapp
+    value: someone-else
